@@ -1,0 +1,13 @@
+.subtitle {
+  display: block;
+  position: relative;
+  bottom: 12px;
+}
+
+h5 {
+  margin-bottom: 0px;
+}
+
+.line {
+  color: #ff8080;
+}

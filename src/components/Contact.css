@@ -1,0 +1,40 @@
+.contact-container {
+  margin: 20px 0px;
+}
+
+.contact-meong {
+  max-height: 300px;
+  width: 400px;
+  background-color: darkorange;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 25px;
+  margin: 0px 0px 23px 0px;
+}
+
+img {
+  max-height: 136px;
+  max-width: 136px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.kucing-pfp {
+  order: 1;
+  flex-basis: 50%;
+}
+
+.detail-sikucing {
+  order: 2;
+  flex-grow: 2;
+}
+
+.nama-sikucing {
+}
+
+.email-sikucing {
+}
+
+.wa-sikucing {
+}
