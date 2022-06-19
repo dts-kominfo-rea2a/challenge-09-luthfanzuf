@@ -90,6 +90,22 @@ const Contact = () => {
                         <p>{data[3].name}</p>
                     </div>
                     <div className='nomer-wa-sikucing'>
+                        <p>{data[3].phone}</p>
+                    </div>
+                    <div className='email-sikucing'>
+                        <p>{data[3].email}</p>
+                    </div>
+                </div>
+            </div>
+            <div className='contact-meong'>
+                <div className='kucing-pfp'>
+                    <img src={data[4].photo} alt='kucing'></img>
+                </div>
+                <div className='detail-sikucing'>
+                    <div className='nama-sikucing'>
+                        <p>{data[4].name}</p>
+                    </div>
+                    <div className='nomer-wa-sikucing'>
                         <p>{data[4].phone}</p>
                     </div>
                     <div className='email-sikucing'>
