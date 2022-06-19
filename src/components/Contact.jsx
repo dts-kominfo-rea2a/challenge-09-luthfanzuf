@@ -32,7 +32,87 @@ const Contact = () => {
     return (
         <>
         <div className='contact-container'>
-            {cardList}
+            {/* {cardList} */}
+            <div className='contact-meong'>
+                <div className='kucing-pfp'>
+                    <img src={data[0].photo} alt='kucing'></img>
+                </div>
+                <div className='detail-sikucing'>
+                    <div className='nama-sikucing'>
+                        <p>{data[0].name}</p>
+                    </div>
+                    <div className='nomer-wa-sikucing'>
+                        <p>{data[0].phone}</p>
+                    </div>
+                    <div className='email-sikucing'>
+                        <p>{data[0].email}</p>
+                    </div>
+                </div>
+            </div>
+            <div className='contact-meong'>
+                <div className='kucing-pfp'>
+                    <img src={data[1].photo} alt='kucing'></img>
+                </div>
+                <div className='detail-sikucing'>
+                    <div className='nama-sikucing'>
+                        <p>{data[1].name}</p>
+                    </div>
+                    <div className='nomer-wa-sikucing'>
+                        <p>{data[1].phone}</p>
+                    </div>
+                    <div className='email-sikucing'>
+                        <p>{data[1].email}</p>
+                    </div>
+                </div>
+            </div>
+            <div className='contact-meong'>
+                <div className='kucing-pfp'>
+                    <img src={data[2].photo} alt='kucing'></img>
+                </div>
+                <div className='detail-sikucing'>
+                    <div className='nama-sikucing'>
+                        <p>{data[2].name}</p>
+                    </div>
+                    <div className='nomer-wa-sikucing'>
+                        <p>{data[2].phone}</p>
+                    </div>
+                    <div className='email-sikucing'>
+                        <p>{data[2].email}</p>
+                    </div>
+                </div>
+            </div>
+            <div className='contact-meong'>
+                <div className='kucing-pfp'>
+                    <img src={data[3].photo} alt='kucing'></img>
+                </div>
+                <div className='detail-sikucing'>
+                    <div className='nama-sikucing'>
+                        <p>{data[3].name}</p>
+                    </div>
+                    <div className='nomer-wa-sikucing'>
+                        <p>{data[4].phone}</p>
+                    </div>
+                    <div className='email-sikucing'>
+                        <p>{data[4].email}</p>
+                    </div>
+                </div>
+            </div>
+            <div className='contact-meong'>
+                <div className='kucing-pfp'>
+                    <img src={data[5].photo} alt='kucing'></img>
+                </div>
+                <div className='detail-sikucing'>
+                    <div className='nama-sikucing'>
+                        <p>{data[5].name}</p>
+                    </div>
+                    <div className='nomer-wa-sikucing'>
+                        <p>{data[5].phone}</p>
+                    </div>
+                    <div className='email-sikucing'>
+                        <p>{data[5].email}</p>
+                    </div>
+                </div>
+            </div>
         </div>
         </>
     )
